@@ -1,0 +1,29 @@
+{
+  "name": "blogapp",
+  "version": "0.0.0",
+  "private": true,
+  "description": "mern blog app in texinity internship",
+  "keywords": [
+    "js",
+    "mern"
+  ],
+  "license": "ISC",
+  "author": "aftab",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules --ext js,json --watch . --ignore uploads/ --ignore node_modules/ index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "~4.17.1",
+    "imagekit": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "multer": "^2.0.2"
+  }
+}
